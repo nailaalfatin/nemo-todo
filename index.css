@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-left: 47px;
+  padding-bottom: 12px;
+}
+
+.navbar p {
+  color: #4682a9;
+  font-size: 30px;
+}
+
+.opening {
+  margin-top: 6px;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.button {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  margin-left: 647px;
+  border-radius: 24px;
+  background: #4682a9;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.button a {
+  color: #fff;
+}
+
+span {
+  color: #4682a9;
+  text-align: center;
+  font-size: 26px;
+}
+
+.openink {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image img {
+  width: 60%;
+  margin-left: 280px;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* Your existing CSS */
+
+@media (max-width: 450px) {
+  .navbar {
+    padding-left: 30px;
+  }
+
+  .navbar p {
+    font-size: 30px;
+  }
+
+  .button {
+    width: 30%;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+
+  .opening{
+    margin-top: 70px;
+    font-size: 13px;
+  }
+
+  .openink {
+    font-size: 13px;
+    margin-top: 50px;
+  }
+
+  .image img {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 5px;
+
+  }
+}
